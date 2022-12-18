@@ -1,3 +1,3 @@
 # Simple-Games
 
-##collection of simple games 
+collection of simple games 
