@@ -15,6 +15,9 @@ while True:
             print('You win!')
             break
         
-        
+        elif guess < answer:
+            print('Too low!')
+        elif guess > answer:
+            print('Too high!')
     
     num_guess += 1
