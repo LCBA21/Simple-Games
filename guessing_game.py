@@ -5,7 +5,7 @@ answer = random.randint(1,100)
 num_guess = 1
 
 while True:
-    guess = int(input('Take a guess. '))
+    guess = int(input('Am thinking of a number between 1 and 100. Take a guess. '))
     
     if num_guess < 10:
         if guess == answer:
