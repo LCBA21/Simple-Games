@@ -17,4 +17,8 @@ while True:
         elif guess > answer:
             print('Too high!')
     
+    else:
+        num_guess = 0
+        print('Next players turn')
+        
     num_guess += 1
