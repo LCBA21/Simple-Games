@@ -11,9 +11,11 @@ while True:
         guess=int(guess)
     except:
         print('Invalid input')
-        continue
-    
-    
+        continue 
+         
+    if guess<=0:
+        print('Your guess cannot be a negative number')
+        continue 
     
     if num_guess < 10:
         if guess == answer:
