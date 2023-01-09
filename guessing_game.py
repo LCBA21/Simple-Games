@@ -7,7 +7,7 @@ num_guess = 1
 while True:
     guess = input('Am thinking of a number between 1 and 100. Take a guess. ')
     
-     try:
+    try:
         guess=int(guess)
     except:
         print('Invalid input')
