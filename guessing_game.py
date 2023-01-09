@@ -18,7 +18,7 @@ while True:
         continue 
     
      #
-    if guess>=100:
+    if guess>100:
         print('Your guess cannot be a greater than 100')
         continue
     
