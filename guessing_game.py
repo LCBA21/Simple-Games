@@ -12,10 +12,15 @@ while True:
     except:
         print('Invalid input')
         continue 
-         
+    #     
     if guess<=0:
         print('Your guess cannot be a negative number')
         continue 
+    
+     #
+    if guess>=100:
+        print('Your guess cannot be a greater than 100')
+        continue
     
     if num_guess < 10:
         if guess == answer:
